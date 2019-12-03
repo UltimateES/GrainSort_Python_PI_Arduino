@@ -1,3 +1,13 @@
+import matplotlib
+import time
+import cv2
+import pandas as pd
+x=cv2.imread("Capture.PNG")
+cv2.imshow("fczxczfdf",x)
+cv2.waitKey(255)
+import numpy as np
+import matplotlib.mlab as mlab
+import matplotlib.pyplot as plt
 import serial
 import signal
 import sys
@@ -6,12 +16,10 @@ from time import gmtime, strftime
 from sys import exit
 from picamera.array import PiRGBArray
 from picamera import PiCamera
-import matplotlib
-import time
-import cv2
+
+
 import numpy as np
-import matplotlib.mlab as mlab
-import matplotlib.pyplot as plt
+
 from array import *
  
 # initialize the camera and grab a reference to the raw camera capture
